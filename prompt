@@ -1,0 +1,7 @@
+single_prompt() {
+    c1=$green
+    c2=$blue
+    c3=$white
+    PROMPT="%B%F{green}%n@%m%f %F{blue}%~ %#%f%b "
+    RPROMPT=""
+}

@@ -1,0 +1,15 @@
+alias mc='make clean; make'
+alias ls='ls --color=auto'
+alias ll='ls -Alrth --color=auto'
+alias update='sudo apt-get update; sudo apt-get upgrade'
+alias cl='clear'
+alias sd='sudo shutdown -h now'
+alias rs='sudo shutdown -r now'
+alias aws='ssh -i /home/pat/Documents/cs184-pkbriggs-stanford-edu.pem ubuntu@ec2-23-20-239-15.compute-1.amazonaws.com'
+alias untar='tar -zxvf'
+
+# CS107
+alias vg='valgrind --tool=memcheck --leak-check=full'
+alias sc='/afs/ir/class/cs107/bin/sanitycheck'
+alias submit='/afs/ir/class/cs107/bin/submit'
+alias myth='ssh pkbriggs@myth.stanford.edu'
