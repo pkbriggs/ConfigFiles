@@ -48,3 +48,8 @@ alias sc='/afs/ir/class/cs107/bin/sanitycheck'
 alias submit='/afs/ir/class/cs107/bin/submit'
 alias mc='make clean; make'
 alias ls='ls --color=auto'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

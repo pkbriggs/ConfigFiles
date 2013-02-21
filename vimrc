@@ -11,3 +11,4 @@ set modeline
 set pastetoggle=<F10>
 set ignorecase
 set smartcase
+nmap <space> zz
