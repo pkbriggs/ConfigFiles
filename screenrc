@@ -1,0 +1,3 @@
+shell "/usr/bin/zsh"
+defscrollback         10000           # default: 100
+startup_message       off             # default: on
