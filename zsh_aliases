@@ -1,7 +1,7 @@
 alias mc='make clean; make'
 alias ls='ls --color=auto'
 alias ll='ls -Alrth --color=auto'
-alias update='sudo apt-get update; sudo apt-get upgrade'
+alias update='sudo apt-get update; sudo apt-get -y upgrade'
 alias cl='clear'
 alias sd='sudo shutdown -h now'
 alias rs='sudo shutdown -r now'

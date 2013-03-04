@@ -43,12 +43,6 @@ zstyle ':completion:*' verbose true
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-alias vg='valgrind --tool=memcheck --leak-check=full'
-alias sc='/afs/ir/class/cs107/bin/sanitycheck'
-alias submit='/afs/ir/class/cs107/bin/submit'
-alias mc='make clean; make'
-alias ls='ls --color=auto'
-
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 ### Added by the Heroku Toolbelt
