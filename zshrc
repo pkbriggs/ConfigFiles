@@ -8,8 +8,8 @@
 autoload -U colors && colors
 #source $HOME/.spectrum
 source $HOME/.prompt
+#source $HOME/Documents/Programming/coinbase/.shared_aliases
 source $HOME/.zsh_aliases # Load configured aliases
-source $HOME/Documents/Programming/coinbase/.shared_aliases
 single_prompt
 
 setopt histignorealldups sharehistory

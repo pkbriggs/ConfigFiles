@@ -1,11 +1,7 @@
 alias mc='make clean; make'
-alias ls='ls -G'
-#alias ll='ls -Alrth --color=auto'
-alias update='sudo apt-get update; sudo apt-get -y upgrade'
+#alias ls='ls -G'
+alias ls='ls -GAlrth'
 alias cl='clear'
-alias sd='sudo shutdown -h now'
-alias rs='sudo shutdown -r now'
-alias aws='ssh -i /home/pat/Documents/cs184-pkbriggs-stanford-edu.pem ubuntu@ec2-23-20-239-15.compute-1.amazonaws.com'
 alias untar='tar -zxvf'
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
@@ -14,11 +10,13 @@ alias trybtcssh='ssh -i pat-trybtc.pem ec2-user@ec2-23-20-233-171.compute-1.amaz
 
 # CS107
 alias vg='valgrind --tool=memcheck --leak-check=full'
-alias sc='/afs/ir/class/cs107/bin/sanitycheck'
-alias submit='/afs/ir/class/cs107/bin/submit'
 alias myth='ssh pkbriggs@myth.stanford.edu'
 
-alias pi='ssh -l pi 192.168.1.69'
-alias wrongbranch='git rest --soft HEAD\^'
-
-alias rtest='ruby -I"lib:test"'
+# Misc
+alias wrongbranch='git reset --soft HEAD\^'
+alias gb='git branch'
+alias gd='git diff'
+alias ga='git add --all .'
+alias gc='git commit -m'
+alias gp='git push'
+alias gco='git checkout'
