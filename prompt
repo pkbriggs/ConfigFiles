@@ -1,7 +1,9 @@
-single_prompt() {
-    c1=$green
-    c2=$blue
-    c3=$white
-    PROMPT="%B%F{green}%n%f %F{blue}%~ %#%f%b "
-    RPROMPT=""
-}
+# Load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+# Format the vcs_info_msg_0_ variable
+# https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html
+zstyle ':vcs_info:git:*' formats '%b'
+
+PROMPT="%B%F{green}\${vcs_info_msg_0_}%f %F{blue}%~ %#%f%b "
