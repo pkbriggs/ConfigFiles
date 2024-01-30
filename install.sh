@@ -13,3 +13,7 @@ ln -s $(pwd)/tmux.conf $HOME/.tmux.conf
 echo "source ~/.zsh_aliases" >> ~/.zshrc
 echo "source ~/.zshrc.local" >> ~/.zshrc
 echo "source ~/.prompt" >> ~/.zshrc
+
+git config --global core.editor "vim"
+git config --global push.autoSetupRemote true
+
