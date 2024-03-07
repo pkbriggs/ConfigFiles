@@ -17,3 +17,4 @@ alias gd='git diff'
 alias gcm='git checkout main'
 alias gb='git branch'
 alias gca='git commit --amend --no-edit'
+alias gg="git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '\$2 == \"[gone]\" {print \$1}' | xargs -r git branch -D"
