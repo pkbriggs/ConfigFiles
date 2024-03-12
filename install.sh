@@ -13,6 +13,7 @@ ln -s $(pwd)/sshrc $HOME/.ssh/rc
 
 echo "setopt prompt_subst" >> ~/.zshrc
 echo "source ~/.zsh_aliases" >> ~/.zshrc
+echo "source ~/.zsh_aliases.local" >> ~/.zshrc
 echo "source ~/.zshrc.local" >> ~/.zshrc
 echo "source ~/.prompt" >> ~/.zshrc
 
