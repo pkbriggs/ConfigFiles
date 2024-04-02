@@ -3,6 +3,7 @@
 touch $(pwd)/zshrc.local
 touch $(pwd)/zsh_aliases.local
 
+cat zshrc >> ~/.zshrc
 ln -s $(pwd)/prompt $HOME/.prompt
 ln -s $(pwd)/zsh_aliases $HOME/.zsh_aliases
 ln -s $(pwd)/zsh_aliases.local $HOME/.zsh_aliases.local

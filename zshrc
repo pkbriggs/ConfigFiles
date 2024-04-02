@@ -1,0 +1,9 @@
+setopt prompt_subst
+source ~/.zsh_aliases
+source ~/.zshrc.local
+source ~/.prompt
+setopt prompt_subst
+source ~/.zsh_aliases
+source ~/.zsh_aliases.local
+source ~/.zshrc.local
+source ~/.prompt
