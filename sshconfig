@@ -1,0 +1,14 @@
+StrictHostKeyChecking no
+Host my.remote.host
+  HostName my.remote.host
+Match host my.remote.host
+  ControlMaster auto
+  ControlPath ~/.ssh/ctrl-%C
+  ForwardAgent yes 
+  ControlPersist yes
+  #ForwardX11 yes
+  #ForwardX11Trusted yes
+  Compression yes
+  #ForwardX11Timeout 0
+
+

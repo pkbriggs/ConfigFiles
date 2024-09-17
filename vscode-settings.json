@@ -1,0 +1,14 @@
+{
+    "editor.fontSize": 15,
+    "window.zoomLevel": 1,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "l"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    }
+}
+
