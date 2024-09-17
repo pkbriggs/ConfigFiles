@@ -2,8 +2,8 @@
 alias tma='tmux attach-session -t'
 alias tm='tmux new -A -s pat'
 alias cl='clear'
-alias ..='cd ..'
-alias done='espeak done && hterm-notify done; notify-send done'
+#alias ..='cd ..'
+#alias done='espeak done && hterm-notify done; notify-send done'
 alias porthog='netstat -tulpn | grep'
 
 # Git
