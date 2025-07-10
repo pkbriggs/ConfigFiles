@@ -21,3 +21,4 @@ echo "source ~/.prompt" >> ~/.zshrc
 git config --global core.editor "vim"
 git config --global push.autoSetupRemote true
 git config --global submodule.recurse true
+git config --global pager.branch false
